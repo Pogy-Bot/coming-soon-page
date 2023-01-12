@@ -46,7 +46,7 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="Pogy - Coming Soon" />
           <meta
             property="og:description"
-            content="Unlock the full potential of your Discord server with Pogy - the ultimate, fully customizable and multipurpose Discord bot. Impress your friends and community with Pogy's wide range of features and commands, from fun and entertainment to useful utilities. Pogy is the most flexible Discord bot available and will give you the power to make your server unique. Upgrade your server today with Pogy and take your community to the next level!"
+            content="Unlock the full potential of your Discord server with Pogy - the ultimate, fully customizable and multipurpose Discord bot."
           />
           <meta property="og:image" content="https://pogy.gg/soon.png" />
           <meta property="twitter:card" content="summary_large_image" />
