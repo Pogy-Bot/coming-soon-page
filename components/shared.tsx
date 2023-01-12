@@ -72,25 +72,30 @@ export const BodyWrapper = styled.div`
   height: 60%;
   align-items: center;
   justify-content: center;
+`;
+
+export const BodyWrapperDone = styled.div`
+  width: 100%;
+  height: 60%;
+
+
+  h2 {
+    max-width: 80%;
+  }
+`;
+
+export const CountMainWrapper = styled.div`
   display: grid;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 0.13fr 0.13fr 0.13fr 0.13fr;
   gap: 3%;
 
   @media (max-width: 768px) {
     grid-template-columns: 0;
     gap: 10px;
-  }
-`;
-
-export const BodyWrapperDone = styled.div`
-  width: 100%;
-  height: 60%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-
-  h2 {
-    max-width: 80%;
   }
 `;
 

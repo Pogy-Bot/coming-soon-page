@@ -16,7 +16,7 @@ import {
   SubHeading,
   SubHeadingWrapper,
 } from "../components/shared";
-import "./index.css";
+
 import { useEffect, useMemo, useState } from "react";
 import Head from "next/head";
 
