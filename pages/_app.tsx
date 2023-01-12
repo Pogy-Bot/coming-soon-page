@@ -85,8 +85,8 @@ export default function App() {
               <MainWrapper>
                 <MainHeaderWrapper>
                   <svg
-                    width={125}
-                    height={125}
+                    width={window.innerWidth > 1024 ? 125 : 75}
+                    height={window.innerWidth > 1024 ? 125 : 75}
                     viewBox="0 0 125 125"
                     fill="none"
                     style={{
@@ -167,7 +167,7 @@ export default function App() {
                         </Heading>
                         <Heading
                           color="white"
-                          textTransform={"uppercase"}
+                          textTransform={"none"}
                           fontSize={"24px"}
                           fontFamily={"Futura xblk bt"}
                           pb={"4px"}
