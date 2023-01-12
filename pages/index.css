@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Futura XBlk BT";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura XBlk BT"), url("/fonts/futuraxk.woff") format("woff");
+}
+
+html,
+body {
+  background: #1a1423 !important;
+}
