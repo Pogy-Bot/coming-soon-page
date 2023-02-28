@@ -369,7 +369,7 @@ export default function App() {
                 )}
                 <JoinDiscordWrapper>
                   <JoinDiscord
-                    href="https://v3.pogy.xyz/discord"
+                    href="https://dev.pogy.gg/discord"
                     target="_blank"
                     rel="noreferrer"
                   >
